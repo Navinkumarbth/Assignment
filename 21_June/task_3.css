@@ -1,0 +1,50 @@
+.parent{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 100px;
+        }
+        .twi{
+            width: 190px;
+            height: 290px;
+            border: 1px solid black;
+        }
+        i{
+            font-size: 4rem;
+            align-items: center;
+            justify-content: center;
+        }
+      
+        button{
+            margin-inline: 15px;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            width: 160px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .insta{
+            background-color: rgb(245, 15, 92);
+            color: white;
+        }
+        .read{
+            background-color: white;
+            color: red;
+            border: none;
+        }
+        .task3{
+            background-color: blueviolet;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+        }
