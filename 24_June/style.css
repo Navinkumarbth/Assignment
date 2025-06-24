@@ -1,0 +1,85 @@
+      h2{
+            width: 100%;
+            height: 40px;
+            background-color: rgb(102, 37, 181);
+            text-align: center;
+            color: white;
+        }
+        .button{
+            width: 120px;
+            height: 60px;
+            background-color: blue;
+            align-items: center;
+            border: 1px solid;
+            border-radius: 10px;
+          
+
+            p{
+                text-align: center;
+                color: white;
+            }
+        }
+        .button:hover{
+            animation-duration: 3s;
+            animation-name: grow;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes grow{
+            from{
+                background-color: blue;
+            }
+            to{
+                width: 150px;
+                height: 75px;
+                background-color: red;
+            }
+        }
+        .button:hover{
+            animation-name: grow;
+        }
+        .rotate{
+            width: 20rem;
+            height: 20rem;
+            background-color: aquamarine;
+            border-radius: 20px;
+        }
+        img{
+            width: 200px;
+            margin: 50px;
+            margin-left: 3rem;
+            animation-name: rotate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes rotate{
+            from{
+                width: 200px;
+            }
+            to{
+              transition: all;
+              transform: rotate(360deg);
+            }
+        }
+
+        .box-1{
+            width: 100%;
+            height: 60px;
+            background-color: crimson;
+        }
+        h3{
+            color: white;
+            padding-top: 18px;
+            animation-name: heading;
+            animation-duration: 3s;
+
+        }
+        @keyframes heading{
+            from{
+                opacity: 0%;
+            }
+            to{
+                opacity: 100%;
+                padding-left: 60%;
+            }
+        }
