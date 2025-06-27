@@ -152,6 +152,7 @@
         border-radius: 20px;
         margin: 10px;
         background-color: white;
+        box-shadow: 2px 2px 2px rgb(222, 111, 111);
         .img-ser{
             border-radius: 50%;
             color: #9B177E;
@@ -170,7 +171,6 @@
 
      .sec-6{
         display: flex;
-        
         .left-nav{
         margin-left: 6rem;
         .span-a{
@@ -196,7 +196,8 @@
             border-top-left-radius: 1rem;
             border-top-right-radius: 1rem;
             width: 100%;
-            box-shadow: 1px 1px 2px gray;
+            box-shadow: 2px 3px 5px rgb(82, 70, 220);
+
         }
         
         .link-1{
@@ -252,6 +253,7 @@
         padding-right: 10px;
         width: 50%;
         height: 100%;
+        box-shadow: 2px 3px 5px rgb(223, 56, 56);
 
         progress{
             width: 100%;
