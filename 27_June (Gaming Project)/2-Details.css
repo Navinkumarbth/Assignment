@@ -1,0 +1,182 @@
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #222;
+        .top-head{
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+             .top-logo{
+                margin-left: 2rem;
+                margin-top: 1rem;
+            }
+
+            .nav-2{
+                padding-top: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                input{
+                    padding: 7.5px;
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    color: rgb(142, 133, 133);
+                    background-color: #333;
+                    border: none;
+                    margin-bottom: 6px;                 
+                }
+                   i{
+                    padding: 7px;
+                    background-color: #333;
+                    color: rgb(142, 133, 133);
+                    border-bottom-left-radius: 20px;
+                    border-top-left-radius: 20px;
+                    margin-bottom: 6px;
+                    }
+            }
+            .nav-3{
+                padding-top: 1rem;
+                color: white;
+                margin-right: 2rem;
+                margin-bottom: 8px;
+               a{
+                color: rgb(142, 133, 133);
+                text-decoration: none;
+                margin: 1rem;
+               }
+            }
+        }
+     }
+
+.head-box{
+        width: 89%;
+        height: 97rem;
+        margin-left: 4rem;
+        margin-top: 3rem;
+        border-radius: 20px;
+        background-color: #333;
+
+        .img-head{
+        display: flex;
+        justify-content: space-evenly;
+        .img-1{
+            margin-top: 3rem;
+            }
+        .img-2{
+            margin-top: 3rem;
+            }
+        }
+        img{
+            height: 16rem;
+            border-radius: 20px;
+
+        }
+    .fortnite{
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+    .sec-3{
+        width: 87%;
+        height: 35rem;
+        margin-left: 4.5rem;
+        border-radius: 20px;
+        background-color: #4f4c4c;
+    }
+    .box-a{
+        width: 25rem;
+        height: 100px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        border-radius: 20px;
+        background-color: #433c3c;
+        display: flex;
+        justify-content: space-around;
+    }
+    .box-b{
+        display: flex;
+        margin-left: 5rem;
+        width: 25rem;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 20px;
+        background-color: #433c3c;
+        justify-content: space-evenly;
+    }
+    .box-n{
+        display: flex;
+        color: white;
+    }
+    .mid-image{
+        width: 17rem;
+        height: 12rem;
+        margin-left: 1.8rem;
+        margin-top: 2rem;
+    }
+    .para-sec{
+        color: #b2a2a2;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+        .para-sect{
+        color: white;
+        }
+    }
+   
+    .up-btn{
+        margin-left: 2rem;
+        padding-left: 22.5rem;
+        padding-right: 22.5rem;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: crimson;
+        border-color: crimson;
+        background-color: #4f4c4c;
+        border-radius: 20px;       
+    }
+}
+
+    /*section-4*/
+    .marg{
+        width: 26rem;
+        display: flex;
+        margin-left: 2rem;
+        margin-top: 2.5rem;
+        color: white;
+        justify-content: space-between;
+    }
+    .sec-4{
+        width: 87%;
+        height: 28rem;
+        display: flex;
+        margin-left: 4.5rem;
+        margin-top: 3rem;
+        border-radius: 20px;
+        background-color: #4f4c4c;
+
+        .kit-box{
+            width: 11rem;
+            display: flex;
+            justify-content: space-around;
+            .kit-i{
+                width: 90px;
+                height: 90px;
+            }
+        }
+    }
+    i{
+        color: rgb(220, 20, 117);
+    }
+     .foot{
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
+       }
