@@ -16,3 +16,5 @@ function groupByType(arr) {
 
 
 console.log(groupByType([1, 'a', true, 2, 'b']));
+
+

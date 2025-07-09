@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="timer-message">Please select a timer before starting</div>
+
+    <div class="container">
+        <div class="timer">
+            <h1>Pomodoro timer</h1>
+
+            <div class="buttom-continer">
+                <button class="button" id="pomodoro-session"><a href="clock.html">Pomodoro</a></button>
+                <button class="button" id="short-break"><a href="clock1.html">Short Break</a></button>
+                <button class="button" id="long-break"><a href="clock2.html">Long Break</a></button>
+            </div>
+            
+             <div id="pomodoro-timer" class="timer-display">
+                        <h1 id="time">05.00</h1>
+                    </div>
+
+            <div class="buttons">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="Reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let s = document.getElementById('start');
+        let stop = document.getElementById("stop");
+        let reset = document.getElementById("Reset");
+        let timer= document.getElementById('time');
+        let minutes=5;
+        let second=0;
+        let timerId;
+
+        s.addEventListener('click',()=>{
+        timerId= setInterval(()=>{
+            if(second===0){
+                second=59;
+                if(minutes!==0){
+                    minutes--;
+                }
+            }
+            else{
+                second--;
+            }
+            timer.innerHTML=`0${minutes}:${second}`
+        },1000)
+        })
+
+
+        stop.addEventListener('click',()=>{
+            clearInterval(timerId)
+        })
+
+        reset.addEventListener('click',()=>{
+            minutes=5;
+            second=0;
+            timer.innerText=`0${minutes}:0${second}`
+            clearInterval(timerId)
+
+        })
+
+
+    </script>
+</body>
+</html>

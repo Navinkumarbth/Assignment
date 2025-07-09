@@ -9,5 +9,4 @@ function findMaxMin(arr) {
     };
 }
 
-// Example usage:
 console.log(findMaxMin([4, 1, 9, -2]));
