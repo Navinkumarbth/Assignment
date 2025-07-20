@@ -1,0 +1,24 @@
+.Card{
+  width: 380px;
+  box-shadow: 2px 2px 3px 2px gray;
+  border-radius: 1rem;
+  overflow: auto;
+  display: flex;
+}
+
+.right-nav{
+  margin-left: 1rem;
+}
+
+footer{
+ background-color: rgb(5, 5, 61);
+ color: white;
+ text-align: center;
+ margin-top: 2rem;
+ height: 7rem;
+ padding-top: 1.5rem;
+} 
+
+i{
+  margin-top: 7rem;
+}
